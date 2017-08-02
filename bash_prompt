@@ -1,0 +1,4 @@
+export PSPREPROMPT='\[\033[1;91m\]\h\[\033[0m\]:\[\033[1;37m\]$(/home/jfager/local/bin/abbreviate_cwd)\[\033[0m\] \[\033[1;90m\]'
+export PSPOSTPROMPT='\[\033[0m\]'
+export PS1="${PSPREPROMPT}\\\$${PSPOSTPROMPT} "
+export PS2="${PSPREPROMPT}>${PSPOSTPROMPT} "
